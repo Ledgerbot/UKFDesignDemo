@@ -1,4 +1,4 @@
-# UKFDesignDemo
+# UKF Design Demo
 MATLAB Unscented Kalman Filter design demonstration
 
 ## First Time Installation Instructions
