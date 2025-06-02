@@ -106,7 +106,7 @@ end
 cd(cpath);
 [ok,msg] = rmdir(pname,'s');
 if ~ok
-    warning('Unable to remove temporary download folder. %s',msg);
+    warning('Unable to remove temporary download folder.');% %s',msg);
 end
 
 % Complete installation
