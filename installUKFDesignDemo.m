@@ -1,21 +1,17 @@
 function installUKFDesignDemo(replaceExisting,skipAdmin)
-% INSTALLUKFDESIGNDEMO installs Plotting Toolbox for MATLAB.
-%   INSTALLUKFDESIGNDEMO installs Plotting Toolbox into the following 
+% INSTALLUKFDESIGNDEMO installs UKF Design Demo for MATLAB.
+%   INSTALLUKFDESIGNDEMO installs UKF Design Demo into the following 
 %   locations:
 %                        Source: Destination
-%     PlottingToolboxFunctions: matlabroot\toolbox\plotting
-%       PlottingToolboxSupport: matlabroot\toolbox\plotting\PlottingToolboxSupport 
+%        UKFDesignDemoFunctions: matlabroot\toolbox\ukfdesigndemo
 %
-%   INSTALLUKFDESIGNDEMO(true) installs Plotting Toolbox regardless of
-%   whether a copy of the Plotting toolbox exists in the MATLAB root.
+%   INSTALLUKFDESIGNDEMO(true) installs UKF Design Demo regardless of
+%   whether a copy of the UKF Design Demo exists in the MATLAB root.
 %
-%   INSTALLUKFDESIGNDEMO(false) installs Plotting Toolbox only if no copy 
-%   of the Plotting toolbox exists in the MATLAB root.
+%   INSTALLUKFDESIGNDEMO(false) installs UKF Design Demo only if no copy 
+%   of the UKF Design Demo exists in the MATLAB root.
 %
-%   M. Kutzer 17Feb2016, USNA
-
-% Updates
-%   22May2025 - Enable local user installation
+%   M. Kutzer 02Jun2025, USNA
 
 %% Define support toolboxes
 requiredToolboxes = {};
